@@ -167,6 +167,7 @@ span{
     z-index: 3;
     font-weight: 300;
     padding: 2.5%;
+    margin-top: -3px
 }
 
 
@@ -176,6 +177,8 @@ span{
     background: #C7C7C7;
     margin: 0;
     padding: 0.7%;
+    padding-top: 18px;
+    margin-top: -3px;
 }
 
 #map{

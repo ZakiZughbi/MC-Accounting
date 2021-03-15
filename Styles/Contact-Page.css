@@ -161,6 +161,7 @@ span{
 .content{
     background: #EFEFEF;
     height: auto;
+    margin-top: -3px;
 }
 
 form{
