@@ -162,64 +162,66 @@ span{
     background: #EFEFEF;
     height: auto;
     margin-top: -3px;
+    padding: 4% 0 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content h2{
+    width: 100%;
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 15px;
+    text-align: center;
+
 }
 
 form{
-    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 600px;
 }
 
-form p{
-    display: inline;
-    font-size: 30px;
-    margin: 5%;
-    padding-left: 10%;
+.block{
+    display: flex;
+    justify-content: flex-end;
+    margin: 23px 8% 0 0;
+    font-size: 25px;
     font-weight: 300;
 }
 
 input{
-    background: #fff;
-    width: 50%;
-    border: 1px solid grey;
-    outline: none; /* check waht this is */
-    color: black;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 3%;
+    font-size: 25px;
+    padding: 3px;
+    width: 460px;
+    margin-left: 10px;
+    font-weight: 300;
+
 }
 
-input:nth-child(2){
-    margin-left: 45px;
-}
+.block4{
+    width: 30%;
+    margin-right: 32%;
 
-input:nth-child(5){
-    margin-left: 40px;
-}
 
-::-webkit-input-placeholder {
-    color: transparent;
+}
+.block4 input{
+    padding: 7px 0px;
+    background: #707070;
+    outline: none;
+    color: #FFFF;
+    border: none;
 }
 
 textarea{
-    background: #fff;
-    width: 50%;
-    border: 1px solid grey;
-    outline: none; /* check waht this is */
-    color: black;
-    font-size: 20px;
-    font-weight: 200;
-    margin-bottom: 3%;
-    position: absolute;
-}
-
-#submitBtn{
-    width: 80px;
-    background: #707070;
-    color: white;
     font-size: 25px;
-    margin-top: 120px;
+    padding: 3px;
+    width: 460px;
+    margin-left: 10px;
     font-weight: 300;
-    padding: 6px;
-    margin-left: 29%;
+
 }
 
 /* Footer Styles */
@@ -264,10 +266,6 @@ textarea{
         margin-left: 18%;
     }
 
-    #submitBtn{
-        margin-left: 31.5%;
-    }
-
 }
 
 @media only screen and (max-width: 1200px){
@@ -275,11 +273,6 @@ textarea{
     .menu{
         height: 110px;
     }
-
-    #submitBtn{
-        margin-left: 33.5%;
-    }
-
 
 }
 
@@ -298,30 +291,28 @@ textarea{
         display: none;
     }
 
-    input{
-        margin-left: 0 !important;
-        width: 89%;
+    form{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content h2{
+        font-size: 28px
+    }
+
+    .block{
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    input, textarea{
+        width: 80%;
+        font-size: 20px;
     }
 
     ::-webkit-input-placeholder {
         color: grey;
-    }
-
-    input:nth-child(2){
-        margin-top: 20px;
-    }
-
-    textarea{
-        width: 80%;
-    }
-
-    #submitBtn{
-        width: 89%;
-        margin-bottom: 50px;
-    }
-
-    form{
-        margin-left: 10%;
     }
 
     #navbar ul{
