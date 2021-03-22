@@ -173,13 +173,18 @@ span{
 
 .Front, .Back{
     background: #fff;
-    width: 105%;
+    /* width: 105%; */
     height: 225px;
     border: 5px solid #C7C7C7;
     font-weight: 300;
     backface-visibility: hidden;
     position: absolute;
+    z-index: 9;
 }
+
+/* .Front{
+    z-index: 9;
+} */
 
 .Front p{
     text-align: center;
