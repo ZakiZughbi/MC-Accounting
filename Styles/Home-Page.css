@@ -184,6 +184,21 @@ p{
     display: none;
 }
 
+.signature{
+    text-align: center;
+    padding: 2% 0 0;
+}
+
+.signature a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.signature a p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
 /* Medias */
 
 @media only screen and (max-width: 1250px){

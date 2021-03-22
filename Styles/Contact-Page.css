@@ -174,7 +174,23 @@ span{
     font-size: 38px;
     margin-bottom: 15px;
     text-align: center;
+}
 
+.successContainer{
+    width: 100%;
+}
+
+.successAlert{
+    width: 30%;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #E2C87C;
+    background: #FCF6E4;
+    color: #CBB36D;
+    padding: 7px;
+    margin: auto;
+    border-radius: 5px;
 }
 
 form{
@@ -244,6 +260,21 @@ textarea{
 
 .address{
     display: none;
+}
+
+.signature{
+    text-align: center;
+    padding: 2% 0 0;
+}
+
+.signature a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.signature a p{
+    font-size: 15px;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 1225px){

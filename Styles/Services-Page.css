@@ -215,7 +215,10 @@ span{
     transform: rotateY(180deg);
 } */
 
-.Back{transform: rotateY(180deg);}
+.Back{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
 
 /* Grid */
 
@@ -274,9 +277,23 @@ span{
      border: 0;
 }
 
-
 .address{
     display: none;
+}
+
+.signature{
+    text-align: center;
+    padding: 2% 0 0;
+}
+
+.signature a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.signature a p{
+    font-size: 15px;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 1250px){
