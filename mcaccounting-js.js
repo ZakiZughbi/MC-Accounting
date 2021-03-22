@@ -27,8 +27,10 @@ function myFunction(){
 
 boxes.forEach(event => event.addEventListener('click', function(){
     if(event.style.transform == ""){
+        event.style['-webkit-transform']="rotateY(180deg)";
         event.style.transform="rotateY(180deg)";
     } else{
+        event.style['-webkit-transform']="";
         event.style.transform="";
     }
 }));
