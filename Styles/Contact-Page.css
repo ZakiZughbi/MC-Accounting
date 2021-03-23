@@ -137,16 +137,16 @@ span{
 
 #navbar ul{
     font-size: 23px;
-    float: left;
-    display: inline-block;
-    margin-left: 25%;
+    display: flex;
     margin-top: 10px;
     font-weight: 300;
+    justify-content: center;
+
 }
 
 #navbar li{
     margin: 0;
-    margin-left: 70px;
+    margin: 0 3.5%;
     padding: 0;
     border-bottom: none;
 }
@@ -176,7 +176,7 @@ span{
     text-align: center;
 }
 
-.successContainer{
+/* .successContainer{
     width: 100%;
 }
 
@@ -191,7 +191,7 @@ span{
     padding: 7px;
     margin: auto;
     border-radius: 5px;
-}
+} */
 
 form{
     display: flex;
@@ -292,11 +292,6 @@ textarea{
         width: 90% !important;
         height: 400px !important;
     }
-
-    #navbar ul{
-        margin-left: 18%;
-    }
-
 }
 
 @media only screen and (max-width: 1200px){

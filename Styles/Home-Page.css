@@ -120,16 +120,16 @@ span{
 
 #navbar ul{
     font-size: 23px;
-    float: left;
-    display: inline-block;
-    margin-left: 25%;
+    display: flex;
     margin-top: 10px;
     font-weight: 300;
+    justify-content: center;
+
 }
 
 #navbar li{
     margin: 0;
-    margin-left: 70px;
+    margin: 0 3.5%;
     padding: 0;
     border-bottom: none;
 }
@@ -201,11 +201,6 @@ p{
 
 /* Medias */
 
-@media only screen and (max-width: 1250px){
-    #navbar ul{
-        margin-left: 18%;
-    }
-}
 
 @media only screen and (max-width: 1050px){
 

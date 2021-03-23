@@ -3,6 +3,7 @@ var nav = document.getElementById('mySidenav');
 var closeBtn = document.getElementById('closebtn');
 var scrollNav = document.getElementById('navbar');
 var boxes = document.querySelectorAll('.box');
+var boxContainer = document.querySelector('.boxes-layout');
 //querySelectorAll
 //getElementsByClassName
 openBtn.addEventListener('click', function(){
@@ -23,7 +24,6 @@ function myFunction(){
         scrollNav.style.top = "-50px";
     }
 }
-
 
 boxes.forEach(event => event.addEventListener('click', function(){
     if(event.style.transform == ""){
